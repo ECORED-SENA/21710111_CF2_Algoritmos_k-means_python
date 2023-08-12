@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Aprendizaje no supervisado <i>K-means</i>',
+    descripcionCurso:
+      'Un tipo de <i>machine learning</i> es el aprendizaje no supervisado usando el algoritmo <i>K-means</i>. Este componente formativo se orienta a conocer cómo funciona el algoritmo a través de un ejercicio planteado e identificar el <i>clúster</i> de un <i>dataset</i> seleccionado, usando Python como lenguaje para realizar algoritmos de inteligencia artificial por su potencia en cuanto a exploración estadística, sus librerías gráficas y librerías de <i>machine learning</i>.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/3.png'),
       },
     ],
   },
@@ -31,13 +36,29 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Aprendizaje no supervisado <i>K-means</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Selección del algoritmo',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Extracción y selección de características',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Refinamiento del algoritmo de agrupación',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo:
+              'Segmentación de conjuntos de datos por atributos compartidos',
+            hash: 't_1_4',
           },
         ],
       },
@@ -45,13 +66,13 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas tecnológicas para el agrupamiento de datos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Validación del resultado del análisis',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +123,99 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1.1.	Selección del algoritmo',
+      referencia:
+        'Anaconda.documentation. (2022).  <i>Installing on Windows</i>.',
+      tipo: 'Documento web',
+      link: 'https://docs.anaconda.com/anaconda/install/windows/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1.1.	Selección del algoritmo	',
+      referencia: 'Kaggle. (2022). <i>ris.csv</i>. Kaggle',
+      tipo: 'Artículo web',
+      link: 'https://www.kaggle.com/datasets/saurabh00007/iriscsv',
+    },
+    {
+      tema: '1.1.1. Selección del conjunto de datos',
+      referencia:
+        'Cui, Y. (2020). <i>The iris dataset - a little bit of History and Biology</i>. Tds.',
+      tipo: 'Artículo web',
+      link:
+        'https://towardsdatascience.com/the-iris-dataset-a-little-bit-of-history-and-biology-fb4812f5a7b5',
+    },
+    {
+      tema: '1.3. Refinamiento del algoritmo de agrupación',
+      referencia:
+        'González, F. (2019). <i>Machine learning: construí tu primer algoritmo inteligente</i>. Somospnt.',
+      tipo: 'Artículo web',
+      link: 'https://somospnt.com/blog/58-hello-world-en-machine-learning',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Aprendizaje automático',
+      significado:
+        'rama de la inteligencia artificial, cuyo objetivo es implementar técnicas que permitan a los computadores aprender mediante un proceso de inducción del conocimiento.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Aprendizaje automático supervisado',
+      significado:
+        'el algoritmo recibe datos de entrenamiento consistente en datos etiquetados. ',
+    },
+    {
+      termino: 'Aprendizaje automático no supervisado',
+      significado:
+        'el algoritmo identifica patrones y saca conclusiones de los datos que se le proporcionan.',
+    },
+    {
+      termino: '<i>Clúster</i>',
+      significado:
+        'conjunto de objetos o registros que son similares entre sí.<br>•	proceso de dividir un conjunto de objetos o registros en subconjuntos  llamados <b><i>clúster</i></b> que tienen semejanzas.',
+    },
+    {
+      termino: 'Distancia euclídea',
+      significado:
+        'es la longitud de segmento entre dos puntos que definen las observaciones más cercanas para asignarlas a un <b><i>clúster</i></b>.',
+    },
+    {
+      termino: 'Inteligencia artificial',
+      significado:
+        'sistemas informáticos que pueden aprender como aprende un ser humano.',
+    },
+    {
+      termino: '<i>Machine learning</i>',
+      significado: 'Machine learning',
+    },
+    {
+      termino: '<i>K-means</i>',
+      significado:
+        'lenguaje de alto nivel usado para construir todo tipo de aplicaciones y muy usado en la ciencia de datos.',
+    },
+    {
+      termino: 'Python',
+      significado:
+        'proceso criptográfico que proporciona comunicaciones seguras a través de las redes, haciendo que la información  entre extremos se transporte en forma segura mediante el uso de criptografía.',
+    },
+    {
+      termino: 'Método del codo',
+      significado:
+        'método consistente en ejecutar <i>K-means</i> para un <b><i>clúster</i></b>  hasta n <b><i>clúster</i></b> y graficar la inercia por cada uno, que es la sumatoria de la distancia al cuadrado  desde cada observación hasta el centroide, el valor k se toma de la gráfica.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Fedding the machine (2019). Schematic Diagram of Dataset in Dataverse 4.0. [Imagen].',
+      link:
+        'https://www.feedingthemachine.ai/wp-content/uploads/2019/03/DatasetDiagram.png',
+    },
+    {
+      referencia: 'Github.com. (s.f.). iris.csv.',
+      link: 'https://raw.githubusercontent.com/toneloy/data/master/iris.csv',
+    },
+    {
+      referencia: 'Kaggle. (2022). Iris.csv. Kaggle.',
+      link: 'https://www.kaggle.com/datasets/saurabh00007/iriscsv',
     },
   ],
   creditos: [
@@ -151,10 +239,31 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Héctor Henry Jurado Soto',
+          cargo: 'Experto Temático',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Cauca – Centro de Teleinformática y Producción Industrial',
+        },
+        {
+          nombre: 'Caterine Bedoya Mejía',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital – Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Metodóloga',
+          centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Correctora de Estilo',
+          centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Miroslava González Hernández',
+          cargo: 'Diseñadora Instruccional',
+          centro:
+            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
@@ -162,13 +271,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
@@ -180,7 +289,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Actividad Didáctica',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
