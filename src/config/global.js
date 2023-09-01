@@ -170,7 +170,12 @@ export default {
     {
       termino: '<i>Clúster</i>',
       significado:
-        'conjunto de objetos o registros que son similares entre sí.<br>•	proceso de dividir un conjunto de objetos o registros en subconjuntos  llamados <b><i>clúster</i></b> que tienen semejanzas.',
+        'conjunto de objetos o registros que son similares entre sí.',
+    },
+    {
+      termino: '<i>Clustering</i>',
+      significado:
+        'proceso de dividir un conjunto de objetos o registros en subconjuntos  llamados <b><i>clúster</i></b> que tienen semejanzas.',
     },
     {
       termino: 'Distancia euclídea',
@@ -184,7 +189,7 @@ export default {
     },
     {
       termino: '<i>Machine learning</i>',
-      significado: 'Machine learning',
+      significado: 'aprendizaje automático',
     },
     {
       termino: '<i>K-means</i>',
@@ -283,8 +288,14 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
           centro:
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },

@@ -10,25 +10,25 @@
       .col-lg-4.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/3.svg', alt='') 
       .col-lg-8.my-3
-        p(data-aos="fade-down") Python es un lenguaje bastante útil para realizar implementaciones de algoritmos de machine learning, cuenta con una sint#[b.t4 axis] clara y fácil de aprender; También, posee tipos de datos de alto nivel, permite procesar y manipular el texto para procesar datos no numéricos, cuenta con librerías como SciPy y Numpy, entre otras, para realizar operaciones de vectores y matrices.
+        p(data-aos="fade-down") Python es un lenguaje bastante útil para realizar implementaciones de algoritmos de #[i machine learning], cuenta con una sintaxis clara y fácil de aprender. También, posee tipos de datos de alto nivel, permite procesar y manipular el texto para procesar datos no numéricos, cuenta con librerías como SciPy y Numpy, entre otras, para realizar operaciones de vectores y matrices.
 
-        p(data-aos="fade-down").mb-0 A continuación se conocerán las librerías más usadas en el ámbito de Python:
+        p(data-aos="fade-down").mb-0 A continuación, se conocerán las librerías más usadas en el ámbito de Python:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.up.my-3(data-aos="fade-right") 
         AcordionA(tipo="a" clase-tarjeta="tarjeta bgac")
           div.ps-5(titulo="Clusterización") 
-            p El campo del machine learning está relacionado con el #[b #[mark.m1 aprendizaje no supervisado]], en los algoritmos clúster solo se cuenta con conjuntos de datos de entrada sin etiquetar, donde se desea conocer información; pero sin importar cuál es la salida.
+            p El campo del #[i machine learning] está relacionado con el #[b #[mark.m1 aprendizaje no supervisado]], en los algoritmos #[i clúster] solo se cuenta con conjuntos de datos de entrada sin etiquetar, donde se desea conocer información; pero sin importar cuál es la salida.
 
             p.mb-0 La técnica de clusterización tiene muchos usos prácticos en muchos campos del mundo real, tales como análisis de ADN, reconocimiento de imágenes, diagnósticos médicos, estudios de datos científicos, aplicaciones web, mercadeo, astronomía, entre otros.
           div.ps-5(titulo="Pandas") 
-            p.mb-0 Es una librería de Python para manipular, procesar y analizar los datos, permite la creación de dataframes, la cual puede contener datos heterogéneos en forma tabular parecidos a las tablas SQL. Referirse a Pandas es hablar de la ciencia de datos.
+            p.mb-0 Es una librería de Python para manipular, procesar y analizar los datos, permite la creación de #[i dataframes], la cual puede contener datos heterogéneos en forma tabular parecidos a las tablas SQL. Referirse a Pandas es hablar de la ciencia de datos.
           div.ps-5(titulo="Matplotlib") 
             p.mb-0 Es una librería para gráficos en 2D, provee una rápida forma de visualizar datos y gráficos de calidad desde Python, tales como diagramas de barras, histogramas, diagramas de sectores, diagramas de caja y bigotes, diagramas de violín, diagramas de dispersión o puntos, diagramas de líneas, diagramas de áreas, diagramas de contorno y mapas de color.
           div.ps-5(titulo="Seaborn") 
             p.mb-0 Son librerías para Python, que permiten generar diagramas o gráficos elegantes y de alto nivel, muy útiles en la ciencia de datos.
           div.ps-5(titulo="Scikit-Learn") 
-            p.mb-0 Son librerías que cuentan con algoritmos para la clasificación, clustering como K-means, reducción de dimensiones usando componentes principales, regresión, y es compatible con las demás librerías de Python.                                               
+            p.mb-0 Son librerías que cuentan con algoritmos para la clasificación, #[i clustering] como #[i k-means], reducción de dimensiones usando componentes principales, regresión, y es compatible con las demás librerías de Python.                                               
       .col-lg-5.up.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/4.png', alt='')  
 
@@ -42,7 +42,7 @@
         .col-lg-3.up.my-3
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/7.svg', alt='') 
         .col-lg-9.up.my-3 
-          p(data-aos="fade-down") Con el aprendizaje no supervisado se trata de aprender las relaciones y estructuras que existen en los datos sin etiquetarlos como variables independientes o variables dependientes; realmente un algoritmo de aprendizaje no supervisado no requiere datos de entrenamiento a diferencia de los algoritmos de aprendizaje supervisado. El algoritmo de aprendizaje no supervisado lo que hace es interpretar y agrupar datos, sin la necesidad de contener datos de entrenamiento, de modo que intentará averiguar a qué grupo o clúster pertenecen los nuevos datos, comparando sus características con las de los clúster, tal como se representa a continuación.        
+          p(data-aos="fade-down") Con el aprendizaje no supervisado se trata de aprender las relaciones y estructuras que existen en los datos sin etiquetarlos como variables independientes o variables dependientes; realmente un algoritmo de aprendizaje no supervisado no requiere datos de entrenamiento a diferencia de los algoritmos de aprendizaje supervisado. El algoritmo de aprendizaje no supervisado lo que hace es interpretar y agrupar datos, sin la necesidad de contener datos de entrenamiento, de modo que intentará averiguar a qué grupo o #[i clúster] pertenecen los nuevos datos, comparando sus características con las de los #[i clúster], tal como se representa a continuación.        
           .row.justify-content-center.align-items-center.mb-5           
             .col-lg-10.up
               .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -53,7 +53,7 @@
           .bg1.p-4(data-aos="fade-left")
             .row.justify-content-center.align-items-center
               .col.my-3.j
-                p.mb-0 En general, lo que se busca con el aprendizaje no supervisado es el conocimiento o patrones existentes entre un montón de datos, de los cuales no se conocen relaciones entre sus variables, no hay datos de referencia; el algoritmo K-means es un algoritmo de aprendizaje no supervisado. Los modelos predictivos se aprenden de manera supervisada mientras que los modelos descriptivos son producidos por técnicas de aprendizaje no supervisado.                
+                p.mb-0 En general, lo que se busca con el aprendizaje no supervisado es el conocimiento o patrones existentes entre un montón de datos, de los cuales no se conocen relaciones entre sus variables, no hay datos de referencia; el algoritmo #[i k-means] es un algoritmo de aprendizaje no supervisado. Los modelos predictivos se aprenden de manera supervisada mientras que los modelos descriptivos son producidos por técnicas de aprendizaje no supervisado.                
               .col-lg-auto.my-3
                 img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/9.png', alt='')   
 
@@ -64,8 +64,8 @@
       .col-lg-auto.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png', alt='')           
       .col.my-3
-        p.mb-0 La agrupación con K-means es una de las técnicas más usadas para particionar datos, si tiene (n) observaciones y (k) clúster conocidos, entonces, cada observación pertenece al clúster con la media más cercana. Como medida se usa la distancia euclidiana; entre muchas ventajas que tiene este algoritmo las principales son la velocidad y la sencillez al implementarlo, por tanto, se puede usar con millones de observaciones.   
-
+        p.mb-0 La agrupación con #[i k-means] es una de las técnicas más usadas para particionar datos, si tiene (#[b n]) observaciones y (#[b k]) #[i clúster] conocidos, entonces, cada observación pertenece al #[i clúster] con la media más cercana. Como medida se usa la distancia euclidiana; entre muchas ventajas que tiene este algoritmo las principales son la #[b velocidad y la sencillez] al implementarlo, por tanto, se puede usar con millones de observaciones.   
+    p(data-aos="fade-down").mb-5 El algoritmo se resume como se muestra a continuación:
     .row.justify-content-center.align-items-center          
       .col-lg-12.up(data-aos="fade-left")
         .bg3.p-5.mb-5
@@ -73,7 +73,7 @@
             SlyderE(indicadores="derecha")
               .row.justify-content-center
                 .col-lg-5.my-3
-                  p Se selecciona la cantidad (k) de clúster a formar.          
+                  p Se selecciona la cantidad (k) de #[i clúster] a formar.          
                 .col-lg-5.my-3
                   img.img-a.img-t(src='@/assets/curso/temas/13.png', alt='')           
               .row.justify-content-center
@@ -111,7 +111,8 @@
         .col-lg-12(data-aos="fade-left")     
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/JJ0goUiXpj4?si=yaQIIyQt9bMiK3NG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Aplicación del algoritmo
 
     p(data-aos="fade-down").mb-5 Ahora bien, en otro ejemplo como el que presenta la siguiente figura, la distancia es observada fácilmente, puesto que es la medida de una línea recta; en dos dimensiones, se debe trabajar principalmente con el concepto de la distancia euclídea.  
     .row.justify-content-center.align-items-center.mb-5           
@@ -138,7 +139,7 @@
       .col-lg-auto.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/23.svg', alt='')           
       .col.my-3
-        p.mb-0 Un conjunto de datos o dataset es un componente de la bigdata que representa un conjunto de información en una matriz o tabla conformada por filas y columnas, cada fila es una instancia del dataset, representa la observación o un registro y cada columna representa una variable o una característica de datos, cada valor puede ser numérico como enteros o decimales y cadenas.
+        p.mb-0 Un conjunto de datos o #[i dataset] es un componente de la #[i bigdata] que representa un conjunto de información en una matriz o tabla conformada por filas y columnas, cada fila es una instancia del #[i dataset], representa la observación o un registro y cada columna representa una variable o una característica de datos, cada valor puede ser numérico como enteros o decimales y cadenas.
 
     .bg7.p-4.mb-5
       .row.justify-content-center.align-items-center   
@@ -146,10 +147,10 @@
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Figura 4.
             span Diagrama de un #[i dataset]
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/24.svg', alt='')
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/24.svg', alt='Diagrama de un Dataset, el cual está conformado por archivos de datos, documentación, código y metadatos.')
           figcaption Nota. Tomado de Feeding the machine (2019)
 
-    p(data-aos="fade-down").mb-5 Antes de realizar cualquier estudio de aprendizaje automático es prioritario conocer muy bien el problema que se quiere resolver y por ende, el dataset involucrado; los datos tienen más sentido si se conocen las historias detrás de cada dato. Para comprender mejor la información anterior se presenta el siguiente ejemplo, que será el ejercicio base de todo este componente formativo y del cual se desprenderá la información temática relacionada en el contenido:
+    p(data-aos="fade-down").mb-5 Antes de realizar cualquier estudio de aprendizaje automático es prioritario conocer muy bien el problema que se quiere resolver y por ende, el #[i dataset] involucrado; los datos tienen más sentido si se conocen las historias detrás de cada dato. Para comprender mejor la información anterior se presenta el siguiente ejemplo, que será el ejercicio base de todo este componente formativo y del cual se desprenderá la información temática relacionada en el contenido:
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
@@ -176,11 +177,11 @@
       .col-lg-4.up.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/27.png', alt='')
       .col-lg-8.up.my-3
-        p(data-aos="fade-down") Para resolver el problema con Python se usará una dataset en la nube llamado iris.csv (Kagle.com, 2022), cuyos datos contienen características (longitud y anchura de sépalos y pétalos) de 50 muestras de cada una de las tres especies de iris (setosa, virginica y versicolor) para un total de 150 observaciones.
+        p(data-aos="fade-down") Para resolver el problema con Python se usará una #[i dataset] en la nube llamado iris.csv (Kagle.com, 2022), cuyos datos contienen características (longitud y anchura de sépalos y pétalos) de 50 muestras de cada una de las tres especies de iris (setosa, virginica y versicolor) para un total de 150 observaciones.
 
-        p(data-aos="fade-down") El dataset se puede obtener en la siguiente ruta #[b #[mark.m1 https://www.kaggle.com/datasets/saurabh00007/iriscsv]] o directamente se puede cargar de la ruta #[b #[mark.m1 https://raw.githubusercontent.com/toneloy/data/master/iris.csv]] como se muestra en el código fuente
+        p(data-aos="fade-down") El #[i dataset] se puede obtener en la siguiente ruta #[b #[mark.m1 https://www.kaggle.com/datasets/saurabh00007/iriscsv]] o directamente se puede cargar de la ruta #[b #[mark.m1 https://raw.githubusercontent.com/toneloy/data/master/iris.csv]] como se muestra en el código fuente
 
-        p(data-aos="fade-down") A continuación se comparte el archivo en el que se muestran los datos de dataset: #[b #[mark.m1 Anexo1-iris.csv.]] De igual forma, el código también se encontrará en el anexo denominado: #[b #[mark.m1 Anexo2-ejecutable-iris.ipynb.]] 
+        p(data-aos="fade-down") A continuación se comparte el archivo en el que se muestran los datos de #[i dataset]: #[b #[mark.m1 Anexo1-iris.csv.]] De igual forma, el código también se encontrará en el anexo denominado: #[b #[mark.m1 Anexo2-ejecutable-iris.ipynb.]] 
         .row
           .col-lg-auto.my-3
             a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1-iris.csv')" target="_blank")
@@ -206,13 +207,13 @@
     .row.justify-content-center.mb-4
       .col-lg-8.up.my-3
       
-        h4(data-aos="fade-down") Introducción a los dataframes 
-        p(data-aos="fade-down") En Python un dataframe es la estructura de datos fundamental de la librería denominada #[b #[mark.m1 Pandas]] (Python Data Analysis Library) y para iniciar la exploración de este dataset en Python se debe primero importar la librería; Pandas permite importar archivos csv, excel, json, html o sql, el código fuente de ejemplo se encuentra en el anexo indicado previamente: #[b #[mark.m1 Anexo1-iris]] Observe el ejemplo a continuación: 
+        h4(data-aos="fade-down") Introducción a los #[i dataframes] 
+        p(data-aos="fade-down") En Python un #[i dataframe] es la estructura de datos fundamental de la librería denominada #[b #[mark.m1 Pandas]] (Python Data Analysis Library) y para iniciar la exploración de este #[i dataset] en Python se debe primero importar la librería; Pandas permite importar archivos csv, excel, json, html o sql, el código fuente de ejemplo se encuentra en el anexo indicado previamente: #[b #[mark.m1 Anexo1-iris]]. Observe el ejemplo a continuación: 
         .bg10.p-4.brad.mb-4
           h4(data-aos="fade-down").mb-0 import pandas as pd # importa pandas como pd , es un alias para referirse a panda iris_df = pd.read_csv #[mark.m2 (https://raw.githubusercontent.com/toneloy/data/master/iris.csv)] iris_df.head(8) # este comando permite visualizar los primeros 8 registros. 
-        p(data-aos="fade-down") Los dataset pueden estar almacenados en repositorios de archivos o en discos duros, memorias etc., y los dataframes son estructuras que se obtienen a través de los datasets y se guardan en la memoria RAM, de este modo se pueden hacer operaciones sobre sus datos.
+        p(data-aos="fade-down") Los #[i dataset] pueden estar almacenados en repositorios de archivos o en discos duros, memorias etc., y los #[i dataframes] son estructuras que se obtienen a través de los #[i datasets] y se guardan en la memoria RAM, de este modo se pueden hacer operaciones sobre sus datos.
 
-        p(data-aos="fade-down") A continuación conocerá cómo inicia el procedimiento con la introducción de datos en el dataframe:        
+        p(data-aos="fade-down") A continuación, conocerá cómo inicia el procedimiento con la introducción de datos en el #[i dataframe]:        
       .col-lg-4.up.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/28.svg', alt='')  
 
@@ -222,8 +223,8 @@
           .row.mb-4
             .col-auto.up
               .bg12.brad.p-1
-                h4.mb-0(data-aos="fade-down") Identificación de observaciones en comando head
-          p(data-aos="fade-down") Luego de introducir los datos en los dataframes, se puede realizar el análisis exploratorio y así detectar similitudes o patrones iniciales para resolver el problema. 
+                h4.mb-0(data-aos="fade-down") Identificación de observaciones en comando #[i head]
+          p(data-aos="fade-down") Luego de introducir los datos en los #[i dataframes], se puede realizar el análisis exploratorio y así detectar similitudes o patrones iniciales para resolver el problema. 
 
           p(data-aos="fade-down") El cuadro muestra los datos importados a analizar.
           .tabla-a.color-acento-botones.mb-5
@@ -293,11 +294,12 @@
                   td 1.5
                   td 0.2
                   td setosa          
+            figcaption Nota: Resultado de visualización de comando #[i head] para 8 observaciones
 
         .col-lg-4.up.my-3
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/30.png', alt='')  
 
-    p(data-aos="fade-down") Si se desea solo ver dos columnas a la vez se utiliza, por ejemplo, especie (species) y longitud del pétalo (petal_length), acá se usa el código:
+    p(data-aos="fade-down") Si se desea solo ver dos columnas a la vez se utiliza, por ejemplo, especie (#[i species]) y longitud del pétalo (#[i petal_length]), acá se usa el código:
     p(data-aos="fade-down").mb-5 iris_df[[‘species’, ‘petal_length’]] # los campos que se visualizan se usan en medio de doble corchete.   
 
     .row.justify-content-center.pt-4
@@ -354,6 +356,7 @@
                 td.wt 149
                 td virginica
                 td 5.1                                              
+          figcaption Nota: Visualización de dos columnas de #[i dataset]
 
       .col-lg-5.up.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/31.png', alt='')  
@@ -366,7 +369,7 @@
               .bg12.brad.p-1
                 h4.mb-0(data-aos="fade-down") Obtener media de las longitudes
           p(data-aos="fade-down") Para obtener la media de las longitudes de los pétalos se usa el comando: 
-          p(data-aos="fade-down") #[b iris_df[‘petal_length’].mean() # ]sirve para obtener la media.
+          p(data-aos="fade-down") <b> iris_df[‘petal_length’].mean() # </b>sirve para obtener la media.
         .col-lg-3.up.my-3
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/32.svg', alt='')  
 
@@ -374,8 +377,8 @@
       .col-auto.up
         .bg12.brad.p-1
           h4.mb-0(data-aos="fade-down") Obtención de datos estadísticos descriptivos
-    p(data-aos="fade-down") Para obtener todos los datos estadísticos descriptivos del dataset se usará el método que describe el dataset como muestra el código fuente: 
-    p(data-aos="fade-down").mb-5 #[b iris_df.describe() # ]sirve para obtener todos los estadísticos descriptivos del dataset.           
+    p(data-aos="fade-down") Para obtener todos los datos estadísticos descriptivos del #[i dataset] se usará el método que describe el #[i dataset] como muestra el código fuente: 
+    p(data-aos="fade-down").mb-5 #[b iris_df.describe() # ]sirve para obtener todos los estadísticos descriptivos del #[i dataset].           
     .bg11
       .row.mb-4.pt-4
         .col-auto.up
@@ -383,7 +386,7 @@
             h4.mb-0(data-aos="fade-down") Resultados
       .row
         .col-lg-5.up.my-3
-          p(data-aos="fade-down") El resultado muestra la cantidad de registros, media, desviación estándar, mínimo, máximo y los principales percentiles de cada uno de las variables numéricas que tenga el dataset.
+          p(data-aos="fade-down") El resultado muestra la cantidad de registros, media, desviación estándar, mínimo, máximo y los principales percentiles de cada uno de las variables numéricas que tenga el #[i dataset].
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/33.png', alt='')  
         .col-lg-7.up.my-3
           .tabla-a.color-acento-botones
@@ -444,7 +447,7 @@
                   td 4.400000
                   td 6.900000
                   td 6.900000 
-
+            figcaption Nota: Estadísticos descriptivos de #[i dataset] iris.csv
     Separador 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.2  Extracción y selección de características 
@@ -462,7 +465,7 @@
           .bg14.p-4.brad.h-100
             img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/35.png', alt='') 
             h5 #[mark.m1 Estadísticas descriptivas]  
-            p.mb-0 Muestran una breve descripción general del dataframe, incluyendo medidas y tipos de variables.   
+            p.mb-0 Muestran una breve descripción general del #[i dataframe], incluyendo medidas y tipos de variables.   
         .col-lg-5.my-3(data-aos="fade-right")
           .bg14.p-4.brad.h-100
             img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/36.png', alt='') 
@@ -507,11 +510,11 @@
           .list__txt.bg6.p-0.px-4
             h4.mb-1 Uso de boxplot 
 
-    p(data-aos="fade-down").mb-5 Para realizar la exploración de los datos se usarán gráficos como: el diagrama de dispersión y el diagrama de pares o #[b #[mark.m1 boxplot]] (el diagrama de cajas y bigotes); con este último, se puede observar la variable categórica especies (#[b #[mark.m1 species]]) y su variación de longitudes y anchos de los sépalos (#[b #[mark.m1 petal_length, petal_width]]) y pétalos (#[b #[mark.m1 sepal_length, sepal_width]]) para cada especie. Con este diagrama se puede comparar la variación de datos entre las diferentes especies, tal como se evidencia en el siguiente recurso.
+    p(data-aos="fade-down").mb-5 Para realizar la exploración de los datos se usarán gráficos como: el diagrama de dispersión y el diagrama de pares o #[b #[mark.m1.fst-italic boxplot]] (el diagrama de cajas y bigotes); con este último, se puede observar la variable categórica especies (#[b #[mark.m1.fst-italic species]]) y su variación de longitudes y anchos de los sépalos (#[b #[mark.m1.fst-italic petal_length, petal_width]]) y pétalos (#[b #[mark.m1.fst-italic sepal_length, sepal_width]]) para cada especie. Con este diagrama se puede comparar la variación de datos entre las diferentes especies, tal como se evidencia en el siguiente recurso.
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta bgac")(data-aos="fade-left")
       div.ps-5(titulo="Creación de conjuntos") 
-        p Con el código relacionado se crean conjuntos de datos variables en las que se guardan las variables de interés, concatenando la variable categórica species con la longitud respectiva de la variable como
+        p Con el código relacionado se crean conjuntos de datos variables en las que se guardan las variables de interés, concatenando la variable categórica #[i species] con la longitud respectiva de la variable como
         h5.mb-5 sepal_length, sepal_width , petal_length, petal_width.
         .row.justify-content-center.align-items-center.mb-5           
           .col-lg-8
@@ -666,12 +669,12 @@
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bg6.p-0.px-4
             h4.mb-1 Uso de Scatter Plot o diagrama de dispersión
-    p(data-aos="fade-down").mb-5 El Scatter Plot o diagrama de dispersión es un tipo de despliegue de datos que muestra la relación entre dos variables numéricas en un dataframe; el diagrama muestra qué tanto se afectan entre sí dichas variables o que grado de independencia hay entre ellas; pero se deben entender que la dispersión se define como la medida de distancia entre los valores de un dataset a su punto medio.            
+    p(data-aos="fade-down").mb-5 El Scatter Plot o diagrama de dispersión es un tipo de despliegue de datos que muestra la relación entre dos variables numéricas en un #[i dataframe]; el diagrama muestra qué tanto se afectan entre sí dichas variables o que grado de independencia hay entre ellas; pero se deben entender que la dispersión se define como la medida de distancia entre los valores de un #[i dataset] a su punto medio.            
 
     .bg14.p-4.mb-5 
       .row.justify-content-center
         .col-lg-4.up.my-3
-          p(data-aos="fade-down") En el caso del dataset iris.csv (Kagle.com, 2022) se va a revisar la relación entre longitudes y anchos del sépalo y entre longitudes y anchos del pétalo, para lo cual se usará el siguiente código:   
+          p(data-aos="fade-down") En el caso del #[i dataset] iris.csv (Kagle.com, 2022) se va a revisar la relación entre longitudes y anchos del sépalo y entre longitudes y anchos del pétalo, para lo cual se usará el siguiente código:   
           img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/43.png', alt='')
         .col-lg-8.up.my-3
           .bg15.p-4.px-5.text-white(data-aos="zoom-in")
@@ -703,7 +706,7 @@
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bg6.p-0.px-4
             h4.mb-1 Uso de Pairplot o gráfica de pare
-    p(data-aos="fade-down").mb-5 Con esta gráfica se puede observar a simple vista todas las relaciones de las columnas o valores entre sí, en una cuadrícula con ejes X y Y. Las variables pueden ser continuas o categóricas, se usa para entender mejor el conjunto de característica que ayuda a interpretar la relación entre dos variables o para formar los clúster más separados, también ayuda a formar modelos de clasificación simples observando y separando los datos.
+    p(data-aos="fade-down").mb-5 Con esta gráfica se puede observar a simple vista todas las relaciones de las columnas o valores entre sí, en una cuadrícula con ejes X y Y. Las variables pueden ser continuas o categóricas, se usa para entender mejor el conjunto de característica que ayuda a interpretar la relación entre dos variables o para formar los #[i clúster] más separados, también ayuda a formar modelos de clasificación simples observando y separando los datos.
 
     .row.justify-content-center.align-items-center.mb-5.bg16.p-4           
       .col-lg-10
@@ -720,30 +723,33 @@
     Separador 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.3  Refinamiento del algoritmo de agrupación   
-    p(data-aos="fade-down").mb-5 La agrupación de datos es un método de clasificación no supervisada, cuyo principal objetivo es buscar patrones ocultos en los datos y con estos crear grupos específicos llamados clúster, estos métodos son usados en la detección de anomalías y en muchas áreas del conocimiento tales como la medicina, las matemáticas, la biología, la astronomía y la industria. A continuación se explica un poco más en qué consiste el refinamiento del algoritmo de agrupación:  
+    p(data-aos="fade-down").mb-5 La agrupación de datos es un método de clasificación no supervisada, cuyo principal objetivo es buscar patrones ocultos en los datos y con estos crear grupos específicos llamados #[i clúster], estos métodos son usados en la detección de anomalías y en muchas áreas del conocimiento tales como la medicina, las matemáticas, la biología, la astronomía y la industria. A continuación, se explica un poco más en qué consiste el refinamiento del algoritmo de agrupación:  
 
     TabsA.color-acento-botones
       .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Agrupación de datos")
         .row.justify-content-center
           .col-lg-6.my-3        
             h4 Agrupación de datos 
-            p Uno de los algoritmos más usados para agrupar datos es el K-means o K-medias, por su sencillez y facilidad de implementación, ya que arroja excelentes resultados, aunque presenta algunas desventajas como identificar clúster no esféricos, de tamaños diversos. 
+            p Uno de los algoritmos más usados para agrupar datos es el #[i k-means] o K-medias, por su sencillez y facilidad de implementación, ya que arroja excelentes resultados, aunque presenta algunas desventajas como identificar #[i clúster] no esféricos, de tamaños diversos. 
 
-            p.mb-0 Uno de los algoritmos más usados para agrupar datos es Este algoritmo es sensible a datos atípicos y al ruido, además exige escoger el tamaño de #[b k] y la inicialización aleatoria de centroides.                      
+            p.mb-0 Este algoritmo es sensible a datos atípicos y al ruido, además exige escoger el tamaño de #[b k] y la inicialización aleatoria de centroides.                      
           .col-lg-6.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/47.png', alt='')   
       .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Sklearn <i>Clúster</i>")
         .row.justify-content-center
           .col-lg-6.my-3        
             h4 Sklearn #[i Clúster] 
-            p.mb-0 Con el ejemplo del daset iris se busca agrupar los datos del dataset #[b iris.csv] usando el algoritmo de agrupamiento K-means, donde ya se presentaron y se visualizaron los datos del caso estudiado para identificar patrones iniciales, entonces, para continuar con la solución se debe usar Python, específicamente la librería #[b sklearn] #[i clúster].                      
+            p.mb-0 Con el ejemplo del #[i daset iris] se busca agrupar los datos del #[i dataset] #[b.fst-italic iris.csv] usando el algoritmo de agrupamiento #[i k-means], donde ya se presentaron y se visualizaron los datos del caso estudiado para identificar patrones iniciales, entonces, para continuar con la solución se debe usar Python, específicamente la librería #[b.fst-italic sklearn] #[i clúster].                      
           .col-lg-6.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/47.png', alt='')
       .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Integración de datos")
         .row.justify-content-center
           .col-lg-6.my-3        
             h4 Integración de datos
-            p.mb-0 Lo primero que se debe hacer en Python es importar las librerías necesarias para ejecutar el algoritmo no supervisado con K-means:                     
+            p Lo primero que se debe hacer en Python es importar las librerías necesarias para ejecutar el algoritmo no supervisado con #[i k-means]:  
+            p from sklearn.clúster import #[i k-means] 
+
+            p.mb-0 De los datos originales se obtiene únicamente los valores de #[i sepal_length] (longitud del sépalo), #[i sepal_width] (ancho del sépalo), #[i petal_length] (longitud del pétalo) y #[i petal_width] (ancho del pétalo).                               
           .col-lg-6.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/47.png', alt='') 
 
@@ -756,12 +762,12 @@
                 img(src='@/assets/curso/temas/icon.svg', alt='')
             .list__txt.bg6.p-0.px-4
               h4.mb-1  Continuación del procedimiento  
-      p(data-aos="fade-down").mb-5 Antes de realizar el procesamiento de los datos se separan unas filas que pueden ser los datos de muestra, las cuales posteriormente se usan para verificar a qué clúster pertenecen, pues los datos se eligen al azar.
+      p(data-aos="fade-down").mb-5 Antes de realizar el procesamiento de los datos se separan unas filas que pueden ser los datos de muestra, las cuales posteriormente se usan para verificar a qué #[i clúster] pertenecen, pues los datos se eligen al azar.
       .row.justify-content-center.mb-4
         .col-lg-7.up.my-3
           .bg10.p-1.mb-4
             h5(data-aos="fade-down").mb-0 Nota: en este ejercicio se obtendrá una muestra de 3 registros de los 150 registros originales. 
-          p(data-aos="fade-down") Se elige aleatoriamente con cualquier mecanismo el registro 30, el registro 51 y el registro 120, usando la función #[b.m1 loc] del dataframe, tal como se presenta a continuación: 
+          p(data-aos="fade-down") Se elige aleatoriamente con cualquier mecanismo el registro 30, el registro 51 y el registro 120, usando la función #[b.m1 loc] del #[i dataframe], tal como se presenta a continuación: 
           .bg15.brad.p-4.px-5.text-white.mb-4(data-aos="zoom-in") 
             ol.lista-ol.fa-ul.mb-0        
               li 
@@ -810,7 +816,7 @@
         .col-lg-5.up.my-3
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/50.png', alt='')        
     
-    p(data-aos="fade-down").mb-5 Una vez escogidas las muestras, estas se eliminan de la data original iris_df, de los datos de muestra, para que estos no se integren con el resto de la información y para ello se usa el siguiente código.     
+    p(data-aos="fade-down").mb-5 Una vez escogidas las muestras, estas se eliminan de la data original #[b iris_df], de los datos de muestra, para que estos no se integren con el resto de la información y para ello se usa el siguiente código.     
 
     .row.justify-content-center
       .col-lg-5.up.my-3
@@ -819,7 +825,7 @@
         .bg15.p-1.px-4.mb-4.text-white(data-aos="zoom-in")
           p.t6.mb-0 #[b.text-white iris_df]#[b.t2 =] #[b.text-white iris_df.]drop#[b.text-white (indiceMuestra,] #[b.t4 axis] #[b.t2 =] #[b.text-white 0) ]#axis = 0 significa que se eliminan filas  
 
-        p(data-aos="fade-down") En una variable #[b #[mark.m1 X]] se guardan las columnas con valores del dataset original, con los cuales se va a entrenar el algoritmo; para esto se usa la función iloc sobre el dataset original #[b #[mark.m1 iris_df.]] Estos datos corresponden a las #[b #[mark.m1 variables de longitudes y anchos de los sépalos y los pétalos únicamente.]]
+        p(data-aos="fade-down") En una variable #[b #[mark.m1 X]] se guardan las columnas con valores del #[i dataset] original, con los cuales se va a entrenar el algoritmo; para esto se usa la función #[b iloc] sobre el #[i dataset] original #[b #[mark.m1 iris_df.]] Estos datos corresponden a las #[b #[mark.m1 variables de longitudes y anchos de los sépalos y los pétalos únicamente.]]
         p(data-aos="fade-down") El conjunto de datos no cuenta con una columna de variable dependiente o #[b #[mark.m1 Y]] en aprendizaje no supervisado, todos son variables dependientes, en este caso es #[b #[mark.m1 X]].
         .row
           .col-lg-auto         
@@ -833,17 +839,17 @@
           .col-lg-auto
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
               h5 Figura 7.
-              span Variable X consistente en resultados a entrenar con el algoritmo k-means
+              span Variable X consistente en resultados a entrenar con el algoritmo #[i k-means]
             img.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/52.png', alt='Se presentan los datos de las medidas de los pétalos y sépalos.')  
 
     p(data-aos="fade-down").my-5 Todos los datos son medidas en centímetros de los pétalos y los sépalos, por lo cual no es necesario realizar algún trabajo de transformación en las variables.  
 
     .row.justify-content-center.mb-4
       .col-lg-7.up.my-3
-        p(data-aos="fade-down") Para hallar el valor óptimo de K necesario en K-means se aplicará el #[b #[mark.m1 método del codo]], calculando el algoritmo de agrupación para diferentes valores de #[b #[mark.m1 (K)]]. 
-        p(data-aos="fade-down") #[b #[mark.m1 El método del codo o método Elbow]] se construye calculando la inercia después de aplicar el método K-means a 1 , 2 , 3, …, N clúster, siendo la inercia la suma de las distancias al cuadrado de cada objeto del clúster a su centroide.
+        p(data-aos="fade-down") Para hallar el valor óptimo de K necesario en #[i k-means] se aplicará el #[b #[mark.m1 método del codo]], calculando el algoritmo de agrupación para diferentes valores de #[b #[mark.m1 (K)]]. 
+        p(data-aos="fade-down") #[b #[mark.m1 El método del codo o método Elbow]] se construye calculando la inercia después de aplicar el método #[i k-means] a 1 , 2 , 3, …, N #[i clúster], siendo la inercia la suma de las distancias al cuadrado de cada objeto del #[i clúster] a su centroide.
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/54.svg', alt='')
-        p(data-aos="fade-down") El punto en el que se observa un cambio brusco en los datos de las inercias se tomará como el valor de #[b #[mark.m1 K]], la línea forma algo similar a la de un brazo y su codo, el código fuente en K-means se muestra a continuación:
+        p(data-aos="fade-down") El punto en el que se observa un cambio brusco en los datos de las inercias se tomará como el valor de #[b #[mark.m1 K]], la línea forma algo similar a la de un brazo y su codo, el código fuente en #[i k-means] se muestra a continuación:
       .col-lg-5.up.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/53.png', alt='')
                          
@@ -898,9 +904,9 @@
       .col-lg-5.up.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/57.png', alt='')        
       .col-lg-7.up.my-3
-        p(data-aos="fade-down") Se observa que el codo se encuentra entre los valores de 2.5 y 5, se usará por tanto K=3.
+        p(data-aos="fade-down") Se observa que el codo se encuentra entre los valores de 2.5 y 5, se usará por tanto #[b K=3].
 
-        p(data-aos="fade-down") Definido el valor de K ya se podrá aplicar el algoritmo de agrupamiento con el siguiente código fuente:
+        p(data-aos="fade-down") Definido el valor de #[b K ]ya se podrá aplicar el algoritmo de agrupamiento con el siguiente código fuente:
 
         .bg15.p-1.px-4.mb-4.text-white(data-aos="zoom-in")
           ol.lista-ol.fa-ul.mb-0        
@@ -908,7 +914,7 @@
               span 1 
               p.mb-0.ps-4.text-bold algoritmo #[b.t2 =] #[b.t3 KMeans]( #[b.t4 n_clústers]#[b.t2 =]#[b.t5 3], #[b.t4 init] #[b.t2 =]‘k-means#[b.t2 ++]’, #[b.t4 max_iter]#[b.t2 =]300, #[b.t4 n_init] #[b.t2 =]#[b.t5 10])   
 
-        p(data-aos="fade-down") #[b #[mark.m1 n clúster:]] se refiere a los clúster que se averiguó anteriormente.
+        p(data-aos="fade-down") #[b #[mark.m1 n clúster:]] se refiere a los #[i clúster] que se averiguó anteriormente.
         p(data-aos="fade-down") #[b #[mark.m1 max_iter:]] número máximo de iteraciones en una misma ejecución.
         p(data-aos="fade-down") #[b #[mark.m1 n_init:]] número de veces que se ejecutará con diferentes centroides.
 
@@ -921,7 +927,7 @@
                   span 1 
                   p.mb-0.ps-4.text-bold algoritmo.#[b.t3 fit](X) 
 
-    p(data-aos="fade-down").mb-5 Una vez entrenado el algoritmo se debe revisar los datos de los centroides y las etiquetas obtenidas, estas etiquetas no son más que la identificación del clúster en donde queda la flor.    
+    p(data-aos="fade-down").mb-5 Una vez entrenado el algoritmo se debe revisar los datos de los centroides y las etiquetas obtenidas, estas etiquetas no son más que la identificación del #[i clúster] en donde queda la flor.    
 
     .row.justify-content-center.mb-4
       .col-lg-3.up.my-3
@@ -945,14 +951,14 @@
       .col-lg-3.up.my-3
         .bg10.p-4
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/60.svg', alt='')
-          p(data-aos="fade-down").mb-0 Indicando los centroides son las coordenadas y las etiquetas representan el clúster en el que queda cada una de las observaciones.  
+          p(data-aos="fade-down").mb-0 Indicando los centroides son las coordenadas y las etiquetas representan el #[i clúster] en el que queda cada una de las observaciones.  
 
     Separador 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.4  Segmentación de conjuntos de datos por atributos compartidos                                                            
-    p(data-aos="fade-down") Una de las principales aplicaciones del aprendizaje no supervisado es la segmentación de dataset, cada clúster es mutuamente excluyente y se conoce como segmentos, la técnica de agrupar se conoce como segmentación. En las empresas, la segmentación permite identificar diferentes preferencias de los clientes, el resultado es importante para realizar el mercadeo efectivo de los productos y los servicios.
+    p(data-aos="fade-down") Una de las principales aplicaciones del aprendizaje no supervisado es la segmentación de #[i dataset], cada #[i clúster] es mutuamente excluyente y se conoce como segmentos, la técnica de agrupar se conoce como segmentación. En las empresas, la segmentación permite identificar diferentes preferencias de los clientes, el resultado es importante para realizar el mercadeo efectivo de los productos y los servicios.
 
-    p(data-aos="fade-down").mb-5 Entre aplicaciones de segmentación o clustering están:   
+    p(data-aos="fade-down").mb-5 Entre aplicaciones de segmentación o #[i clustering] están:   
 
     .row.justify-content-center.mb-4
       .col-lg-5.up.my-3
@@ -961,7 +967,7 @@
         ul.lista-ul.fa-ul
           li 
             i.fas.fa-angle-right.vi
-            p.mb-0 Identificación de patrones de compra, recomendaciones de películas o series a los usuarios de streaming.
+            p.mb-0 Identificación de patrones de compra, recomendaciones de películas o series a los usuarios de #[i streaming].
           li 
             i.fas.fa-angle-right.vi
             p.mb-0 Detección de fraudes bancarios.
@@ -981,7 +987,7 @@
             i.fas.fa-angle-right.vi
             p.mb-0 Identificación de síntomas.  
 
-    p(data-aos="fade-down").mb-5 En el caso del ejemplo propuesto es conveniente graficar los datos obtenidos en clúster, para lo cual se usa el siguiente código de las longitudes y ancho de los sépalos:
+    p(data-aos="fade-down").mb-5 En el caso del ejemplo propuesto es conveniente graficar los datos obtenidos en #[i clúster], para lo cual se usa el siguiente código de las longitudes y ancho de los sépalos:
 
     .row.justify-content-center.mb-4     
       .col-lg-7.up.my-3
@@ -1018,12 +1024,12 @@
       .col-lg-4.up.my-3
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 10.
-          span Centroides y clúster
+          span Centroides y #[i clúster]
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/64.png', alt='Gráfica de centroides y clúster obtenidos teniendo en cuenta la longitud y ancho del sépalo.') 
       .col-lg-4.up.my-3
         .bg10.p-4
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/63.png', alt='')
-          p(data-aos="fade-down").mb-0 En este caso se han graficado los clúster obtenidos, teniendo en cuenta la longitud y ancho del sépalo que son las columnas 0 y 1 del #[i dataset], se observa que el clúster 0 de color rojo podría ser los datos de la especie setosa, el #[i clúster] 1 de color azul equivale a la especie virgínica y el clúster 2 de color verde corresponde al versicolor.                                            
+          p(data-aos="fade-down").mb-0 En este caso se han graficado los #[i clúster] obtenidos, teniendo en cuenta la longitud y ancho del sépalo que son las columnas 0 y 1 del #[i dataset], se observa que el #[i clúster] 0 de color rojo podría ser los datos de la especie setosa, el #[i clúster] 1 de color azul equivale a la especie virgínica y el #[i clúster] 2 de color verde corresponde al versicolor.                                            
 </template>
 
 <script>

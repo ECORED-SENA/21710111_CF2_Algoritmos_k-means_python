@@ -13,7 +13,7 @@
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/2.svg', alt='')           
             .col.my-3  
               p(data-aos="fade-down").mb-0 El algoritmo de aprendizaje no supervisado, específicamente #[i K-means] está basado en la identificación de patrones como #[i clúster] y los datos toman una gran importancia en el aprendizaje automático, conceptualizando la importancia de la ciencia de datos, #[i bigdata], tipos de variables y códigos fuente en Python.
-        p(data-aos="fade-down") Con el algoritmo #[i K-means] se pueden revisar patrones en diferentes exploraciones o en una muestra determinada obtenida aleatoriamente y en nuevas muestras diferentes al daset inicial. Con Python se hace la exploración de datos usando anaconda y júpiter lab, donde se toman las estadísticas descriptivas del dataset y se pueden realizar gráficos como #[b #[mark.m1 boxplots]], gráficos de dispersión y gráficos de pares o #[b #[mark.m1 paiplot.]]
+        p(data-aos="fade-down") Con el algoritmo #[i K-means] se pueden revisar patrones en diferentes exploraciones o en una muestra determinada obtenida aleatoriamente y en nuevas muestras diferentes al daset inicial. Con Python se hace la exploración de datos usando anaconda y júpiter lab, donde se toman las estadísticas descriptivas del #[i dataset] y se pueden realizar gráficos como #[b #[mark.m1 boxplots]], gráficos de dispersión y gráficos de pares o #[b #[mark.m1 paiplot.]]
     p(data-aos="fade-down").mb-5 Así pues, un resumen de lo visto en el presente componente podrá ser visualizado en el siguiente mapa conceptual:
     .row.justify-content-center
       .col-lg-10.mb-5
