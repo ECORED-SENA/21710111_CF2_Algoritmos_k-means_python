@@ -91,7 +91,7 @@
       .col-lg-4.my-3(data-aos="fade-left")
         .bg14.p-4.brad.h-100
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/74.png', alt='') 
-          h5 #[mark.m1 Gráficos silhouette o silueta]  
+          h5 #[mark.m1 Gráficos #[i silhouette] o silueta]  
           p.mb-0 Es un método usado para seleccionar un óptimo valor de #[b K]  
       .col-lg-4.my-3(data-aos="fade-right")
         .bg14.p-4.brad.h-100

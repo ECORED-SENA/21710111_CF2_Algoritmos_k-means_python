@@ -14,7 +14,7 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/yVIf4MtNg_c?si=HGISsrbSsOUS73Gm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
-        figcaption Video. Aprendizaje no supervisado K-means
+        figcaption Video. Aprendizaje no supervisado #[i K-means]
 </template>
 
 <script>
