@@ -40,6 +40,9 @@
     p(data-aos="fade-down").mb-4 Para ir dando finalización al proceso ya iniciado se deben usar las muestras separadas inicialmente y observar a qué #[i clúster] pertenecen, además de forma preliminar observar los resultados que predice el algoritmo. Se retoma entonces la prueba original consistente en tres observaciones.     
     .row.justify-content-center.mb-5      
       .col-lg-8.up.my-3
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Tabla 6.
+          span Predicción de resultados      
         .tabla-a.color-acento-botones   
           table.text-center
             thead

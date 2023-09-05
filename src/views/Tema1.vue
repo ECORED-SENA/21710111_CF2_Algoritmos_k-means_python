@@ -227,6 +227,9 @@
           p(data-aos="fade-down") Luego de introducir los datos en los #[i dataframes], se puede realizar el análisis exploratorio y así detectar similitudes o patrones iniciales para resolver el problema. 
 
           p(data-aos="fade-down") El cuadro muestra los datos importados a analizar.
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Tabla 1.
+            span Resultado de visualización de comando #[i head] para 8 observaciones           
           .tabla-a.color-acento-botones.mb-5
             table.text-center
               thead
@@ -294,8 +297,6 @@
                   td 1.5
                   td 0.2
                   td setosa          
-            figcaption Nota: Resultado de visualización de comando #[i head] para 8 observaciones
-
         .col-lg-4.up.my-3
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/30.png', alt='')  
 
@@ -304,6 +305,9 @@
 
     .row.justify-content-center.pt-4
       .col-lg-7.up.my-3
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Tabla 2.
+          span Visualización de dos columnas de #[i dataset]       
         .tabla-a.color-acento-botones.mb-5
           table.text-center
             thead
@@ -356,8 +360,6 @@
                 td.wt 149
                 td virginica
                 td 5.1                                              
-          figcaption Nota: Visualización de dos columnas de #[i dataset]
-
       .col-lg-5.up.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/31.png', alt='')  
 
@@ -389,6 +391,9 @@
           p(data-aos="fade-down") El resultado muestra la cantidad de registros, media, desviación estándar, mínimo, máximo y los principales percentiles de cada uno de las variables numéricas que tenga el #[i dataset].
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/33.png', alt='')  
         .col-lg-7.up.my-3
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Tabla 3.
+            span Estadísticos descriptivos de #[i dataset] iris.csv         
           .tabla-a.color-acento-botones
             table.text-center
               thead
@@ -447,7 +452,6 @@
                   td 4.400000
                   td 6.900000
                   td 6.900000 
-            figcaption Nota: Estadísticos descriptivos de #[i dataset] iris.csv
     Separador 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.2  Extracción y selección de características 
@@ -563,6 +567,9 @@
                        
       div.ps-5(titulo="Primeras observaciones") 
         p Las primeras 5 filas de cada variable se muestran así:
+        .titulo-sexto.color-acento-contenido
+            h5 Tabla 4.
+            span Cinco primeras filas de cada variable         
         .tabla-a.color-acento-botones
           table.text-center
             thead
@@ -645,7 +652,7 @@
               p.t6.mb-0 #[b.text-white plt.]#[b.t3 subplot] #[b.text-white (]#[b.t5 2,2,4]#[b.text-white )] #define posición para segundo gráfico fig = sns.boxplot(x=var, y=“petal_width”, data =datosAnchoPetalo, palette =[‘blue’, ‘orange’, ‘green’]) # se dibuja el boxplot fig.axis (ymin=0, ymax=3)                    
       div.ps-5(titulo="Resultado") 
         p A partir de lo anterior se obtiene el siguiente gráfico:
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/40.png', alt='')           
+        img.img-a.img-t(src='@/assets/curso/temas/40.png', alt='')           
 
     p(data-aos="fade-down").my-5 Observando los cuatro gráficos boxplot se puede obtener algunas conclusiones preliminares, por ejemplo: 
 
@@ -781,6 +788,9 @@
                 p.mb-0.ps-4.text-boldd iris_df.#[b.t3 keys]()).#[b.t3 reset_index](#[b.t4 drop] #[b.t2 =] True)  
 
           p(data-aos="fade-down") Dando como resultado 
+          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+            h5 Tabla 5.
+            span Resultado de la función #[b loc]          
           .tabla-a.color-acento-botones
             table.text-center
               thead
