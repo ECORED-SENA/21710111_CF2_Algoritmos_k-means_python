@@ -18,7 +18,7 @@
       .col-lg-7.up.my-3(data-aos="fade-right") 
         AcordionA(tipo="a" clase-tarjeta="tarjeta bgac")
           div.ps-5(titulo="Clusterización") 
-            p El campo del #[i machine learning] está relacionado con el #[b #[mark.m1 aprendizaje no supervisado]], en los algoritmos #[i clúster] solo se cuenta con conjuntos de datos de entrada sin etiquetar, donde se desea conocer información; pero sin importar cuál es la salida.
+            p El campo del #[i machine learning] está relacionado con el #[b #[mark.m1 aprendizaje no supervisado]], en los algoritmos clúster solo se cuenta con conjuntos de datos de entrada sin etiquetar, donde se desea conocer información; pero sin importar cuál es la salida.
 
             p.mb-0 La técnica de clusterización tiene muchos usos prácticos en muchos campos del mundo real, tales como análisis de ADN, reconocimiento de imágenes, diagnósticos médicos, estudios de datos científicos, aplicaciones web, mercadeo, astronomía, entre otros.
           div.ps-5(titulo="Pandas") 
@@ -42,7 +42,7 @@
         .col-lg-3.up.my-3
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/7.svg', alt='') 
         .col-lg-9.up.my-3 
-          p(data-aos="fade-down") Con el aprendizaje no supervisado se trata de aprender las relaciones y estructuras que existen en los datos sin etiquetarlos como variables independientes o variables dependientes; realmente un algoritmo de aprendizaje no supervisado no requiere datos de entrenamiento a diferencia de los algoritmos de aprendizaje supervisado. El algoritmo de aprendizaje no supervisado lo que hace es interpretar y agrupar datos, sin la necesidad de contener datos de entrenamiento, de modo que intentará averiguar a qué grupo o #[i clúster] pertenecen los nuevos datos, comparando sus características con las de los #[i clúster], tal como se representa a continuación.        
+          p(data-aos="fade-down") Con el aprendizaje no supervisado se trata de aprender las relaciones y estructuras que existen en los datos sin etiquetarlos como variables independientes o variables dependientes; realmente un algoritmo de aprendizaje no supervisado no requiere datos de entrenamiento a diferencia de los algoritmos de aprendizaje supervisado. El algoritmo de aprendizaje no supervisado lo que hace es interpretar y agrupar datos, sin la necesidad de contener datos de entrenamiento, de modo que intentará averiguar a qué grupo o clúster pertenecen los nuevos datos, comparando sus características con las de los clústeres, tal como se representa a continuación.        
           .row.justify-content-center.align-items-center.mb-5           
             .col-lg-10.up
               .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -64,7 +64,7 @@
       .col-lg-auto.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/10.png', alt='')           
       .col.my-3
-        p.mb-0 La agrupación con #[i k-means] es una de las técnicas más usadas para particionar datos, si tiene (#[b n]) observaciones y (#[b k]) #[i clúster] conocidos, entonces, cada observación pertenece al #[i clúster] con la media más cercana. Como medida se usa la distancia euclidiana; entre muchas ventajas que tiene este algoritmo las principales son la #[b velocidad y la sencillez] al implementarlo, por tanto, se puede usar con millones de observaciones.   
+        p.mb-0 La agrupación con #[i k-means] es una de las técnicas más usadas para particionar datos, si tiene (#[b n]) observaciones y (#[b k]) clúster conocidos, entonces, cada observación pertenece al clúster con la media más cercana. Como medida se usa la distancia euclidiana; entre muchas ventajas que tiene este algoritmo las principales son la #[b velocidad y la sencillez] al implementarlo, por tanto, se puede usar con millones de observaciones.   
     p(data-aos="fade-down").mb-5 El algoritmo se resume como se muestra a continuación:
     .row.justify-content-center.align-items-center          
       .col-lg-12.up(data-aos="fade-left")
@@ -73,7 +73,7 @@
             SlyderE(indicadores="derecha")
               .row.justify-content-center
                 .col-lg-5.my-3
-                  p Se selecciona la cantidad (k) de #[i clúster] a formar.          
+                  p Se selecciona la cantidad (k) de clúster a formar.          
                 .col-lg-5.my-3
                   img.img-a.img-t(src='@/assets/curso/temas/13.png', alt='')           
               .row.justify-content-center
@@ -88,12 +88,12 @@
                   img.img-a.img-t(src='@/assets/curso/temas/15.png', alt='')           
               .row.justify-content-center
                 .col-lg-5.my-3
-                  p Se actualizan los centroides, buscando la media en cada #[i clúster] formado.         
+                  p Se actualizan los centroides, buscando la media en cada clúster formado.         
                 .col-lg-5.my-3
                   img.img-a.img-t(src='@/assets/curso/temas/16.png', alt='') 
               .row.justify-content-center
                 .col-lg-5.my-3
-                  p Una vez se obtienen los nuevos centroides se ejecuta nuevamente el paso 3 y 4 en forma iterativa hasta que no haya cambios en los #[i clúster] formados.          
+                  p Una vez se obtienen los nuevos centroides se ejecuta nuevamente el paso 3 y 4 en forma iterativa hasta que no haya cambios en los clústeres formados.          
                 .col-lg-5.my-3
                   img.img-a.img-t(src='@/assets/curso/temas/17.png', alt='')                             
           
@@ -162,7 +162,7 @@
     img.img-a.img-t.mb-5(data-aos="zoom-in")(src='@/assets/curso/temas/25.png', alt='')
     .row.justify-content-start.mb-4
       .col-lg-3.up.my-3
-        p(data-aos="fade-down") Hay similitudes en morfología entre esas especies, aunque todas tienen el mismo nombre hay alguna diferencia entre las tres especies. Se observa que hay una diferencia notable en la semillas de esas tres especies, además de la diferencia en los tamaños de sus pétalos y sépalos.
+        p(data-aos="fade-down") Hay similitudes en morfología entre esas especies, aunque todas tienen el mismo nombre, hay alguna diferencia entre las tres especies. Se observa que hay una diferencia notable en las semillas de esas tres especies, además de la diferencia en los tamaños de sus pétalos y sépalos.
       .col-lg-7.up.my-3
         .bg1.p-4.brad 
           .row.justify-content-center.align-items-center   
@@ -171,7 +171,7 @@
             .col.my-3.j
               p(data-aos="fade-down") La flor de iris puede identificarse atendiendo a los anchos y altos de sus pétalos y sépalos. 
 
-              p(data-aos="fade-down").mb-0 La flor de iris puede Si no se conoce qué es el pétalo y qué es el sépalo observe la figura, los sépalos protegen la flor, brindan protección, ya que los pétalos rodean las unidades reproductoras de las flores. Los sépalos en conjunto forman el cáliz y los pétalos en conjunto forman la corola.         
+              p(data-aos="fade-down").mb-0 Si no se conoce qué es el pétalo y qué es el sépalo, observe la figura, los sépalos protegen la flor, brindan protección, ya que los pétalos rodean las unidades reproductoras de las flores. Los sépalos en conjunto forman el cáliz y los pétalos en conjunto forman la corola.         
 
     .row.justify-content-center.mb-4
       .col-lg-4.up.my-3
@@ -512,7 +512,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bg6.p-0.px-4
-            h4.mb-1 Uso de boxplot 
+            h4.mb-1 Uso de #[i boxplot] 
 
     p(data-aos="fade-down").mb-5 Para realizar la exploración de los datos se usarán gráficos como: el diagrama de dispersión y el diagrama de pares o #[b #[mark.m1.fst-italic boxplot]] (el diagrama de cajas y bigotes); con este último, se puede observar la variable categórica especies (#[b #[mark.m1.fst-italic species]]) y su variación de longitudes y anchos de los sépalos (#[b #[mark.m1.fst-italic petal_length, petal_width]]) y pétalos (#[b #[mark.m1.fst-italic sepal_length, sepal_width]]) para cada especie. Con este diagrama se puede comparar la variación de datos entre las diferentes especies, tal como se evidencia en el siguiente recurso.
 
@@ -634,8 +634,8 @@
                 td setosa
                 td 0.2
                 td setosa                
-      div.ps-5(titulo="Graficar boxplot") 
-        p Con el siguiente código se grafican los #[b boxplots] de las especies con cada una de sus variables.
+      div.ps-5(titulo="Graficar <i>boxplot</i>") 
+        p Con el siguiente código se grafican los #[b #[i boxplots]] de las especies con cada una de sus variables.
         .row.justify-content-center.align-items-center.mb-5           
           .col-lg-8
             .bg15.p-4.px-5.text-white
@@ -654,7 +654,7 @@
         p A partir de lo anterior se obtiene el siguiente gráfico:
         img.img-a.img-t(src='@/assets/curso/temas/40.png', alt='')           
 
-    p(data-aos="fade-down").my-5 Observando los cuatro gráficos boxplot se puede obtener algunas conclusiones preliminares, por ejemplo: 
+    p(data-aos="fade-down").my-5 Observando los cuatro gráficos #[i boxplot] se puede obtener algunas conclusiones preliminares, por ejemplo: 
 
     .row.justify-content-center.mb-4
       .col-lg-4.up.my-3
@@ -666,7 +666,7 @@
             .col-lg-auto.my-2
               img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/42.png', alt='')           
             .col.my-2
-              p.mb-0 La variables de los pétalos de las tres especies tienen variaciones importantes tanto en longitud del pétalo como el ancho del pétalo respecto a las variaciones de los anchos y longitudes de los sépalos, lo cual hace que las variables de longitud y ancho de los pétalos contribuyan más a la hora de definir a qué especie pertenece una flor. 
+              p.mb-0 Las variables de los pétalos de las tres especies tienen variaciones importantes tanto en longitud del pétalo como el ancho del pétalo respecto a las variaciones de los anchos y longitudes de los sépalos, lo cual hace que las variables de longitud y ancho de los pétalos contribuyan más a la hora de definir a qué especie pertenece una flor. 
 
     .row.justify-content-start.mb-3
       .col-auto(data-aos="flip-down")
@@ -675,8 +675,8 @@
             .list__item__icon
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bg6.p-0.px-4
-            h4.mb-1 Uso de Scatter Plot o diagrama de dispersión
-    p(data-aos="fade-down").mb-5 El Scatter Plot o diagrama de dispersión es un tipo de despliegue de datos que muestra la relación entre dos variables numéricas en un #[i dataframe]; el diagrama muestra qué tanto se afectan entre sí dichas variables o que grado de independencia hay entre ellas; pero se deben entender que la dispersión se define como la medida de distancia entre los valores de un #[i dataset] a su punto medio.            
+            h4.mb-1 Uso de #[i Scatter Plot] o diagrama de dispersión
+    p(data-aos="fade-down").mb-5 El #[i Scatter Plot] o diagrama de dispersión es un tipo de despliegue de datos que muestra la relación entre dos variables numéricas en un #[i dataframe]; el diagrama muestra qué tanto se afectan entre sí dichas variables o que grado de independencia hay entre ellas; pero se deben entender que la dispersión se define como la medida de distancia entre los valores de un #[i dataset] a su punto medio.            
 
     .bg14.p-4.mb-5 
       .row.justify-content-center
@@ -702,7 +702,7 @@
       .col-lg-5.up.my-3 
         .bg10.p-4.brad.h-100.j
           .row.justify-content-center.align-items-center(data-aos="fade-right")
-            p El gráfico confirma las observaciones realizadas con los boxplot, que las longitudes de las especies setosa son más pequeñas que la de los otras dos especies y con el ancho del sépalo más grande que las otras dos especies, mostrando el patrón de la figura; las otras dos especies no se agrupan de una manera diferenciadora, si se desea clasificar solo la especie setosa. 
+            p El gráfico confirma las observaciones realizadas con los #[i boxplot], que las longitudes de las especies setosa son más pequeñas que la de las otras dos especies y con el ancho del sépalo más grande que las otras dos especies, mostrando el patrón de la figura; las otras dos especies no se agrupan de una manera diferenciadora, si se desea clasificar solo la especie setosa. 
             p.mb-0 En cambio, en el gráfico de dispersión de longitudes y en el ancho del pétalo sí se muestra un patrón que permite clasificar una flor en cada especie, así se concluye que las variables longitud y ancho de los pétalos contribuyen enormemente a la hora de clasificar el tipo de especie a la que pertenece una flor.    
 
     .row.justify-content-start.mb-3
@@ -713,7 +713,7 @@
               img(src='@/assets/curso/temas/icon.svg', alt='')
           .list__txt.bg6.p-0.px-4
             h4.mb-1 Uso de Pairplot o gráfica de pare
-    p(data-aos="fade-down").mb-5 Con esta gráfica se puede observar a simple vista todas las relaciones de las columnas o valores entre sí, en una cuadrícula con ejes X y Y. Las variables pueden ser continuas o categóricas, se usa para entender mejor el conjunto de característica que ayuda a interpretar la relación entre dos variables o para formar los #[i clúster] más separados, también ayuda a formar modelos de clasificación simples observando y separando los datos.
+    p(data-aos="fade-down").mb-5 Con esta gráfica se puede observar a simple vista todas las relaciones de las columnas o valores entre sí, en una cuadrícula con ejes X y Y. Las variables pueden ser continuas o categóricas, se usa para entender mejor el conjunto de características que ayuda a interpretar la relación entre dos variables o para formar los clústeres más separados, también ayuda a formar modelos de clasificación simples observando y separando los datos.
 
     .row.justify-content-center.align-items-center.mb-5.bg16.p-4           
       .col-lg-10
@@ -730,14 +730,14 @@
     Separador 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.3  Refinamiento del algoritmo de agrupación   
-    p(data-aos="fade-down").mb-5 La agrupación de datos es un método de clasificación no supervisada, cuyo principal objetivo es buscar patrones ocultos en los datos y con estos crear grupos específicos llamados #[i clúster], estos métodos son usados en la detección de anomalías y en muchas áreas del conocimiento tales como la medicina, las matemáticas, la biología, la astronomía y la industria. A continuación, se explica un poco más en qué consiste el refinamiento del algoritmo de agrupación:  
+    p(data-aos="fade-down").mb-5 La agrupación de datos es un método de clasificación no supervisada, cuyo principal objetivo es buscar patrones ocultos en los datos y con estos crear grupos específicos llamados clúster, estos métodos son usados en la detección de anomalías y en muchas áreas del conocimiento tales como la medicina, las matemáticas, la biología, la astronomía y la industria. A continuación, se explica un poco más en qué consiste el refinamiento del algoritmo de agrupación:  
 
     TabsA.color-acento-botones
       .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Agrupación de datos")
         .row.justify-content-center
           .col-lg-6.my-3        
             h4 Agrupación de datos 
-            p Uno de los algoritmos más usados para agrupar datos es el #[i k-means] o K-medias, por su sencillez y facilidad de implementación, ya que arroja excelentes resultados, aunque presenta algunas desventajas como identificar #[i clúster] no esféricos, de tamaños diversos. 
+            p Uno de los algoritmos más usados para agrupar datos es el #[i k-means] o K-medias, por su sencillez y facilidad de implementación, ya que arroja excelentes resultados, aunque presenta algunas desventajas como identificar clúster no esféricos, de tamaños diversos. 
 
             p.mb-0 Este algoritmo es sensible a datos atípicos y al ruido, además exige escoger el tamaño de #[b k] y la inicialización aleatoria de centroides.                      
           .col-lg-6.my-3
@@ -745,8 +745,8 @@
       .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Sklearn <i>Clúster</i>")
         .row.justify-content-center
           .col-lg-6.my-3        
-            h4 Sklearn #[i Clúster] 
-            p.mb-0 Con el ejemplo del #[i daset iris] se busca agrupar los datos del #[i dataset] #[b.fst-italic iris.csv] usando el algoritmo de agrupamiento #[i k-means], donde ya se presentaron y se visualizaron los datos del caso estudiado para identificar patrones iniciales, entonces, para continuar con la solución se debe usar Python, específicamente la librería #[b.fst-italic sklearn] #[i clúster].                      
+            h4 Sklearn clúster 
+            p.mb-0 Con el ejemplo del #[i daset iris] se busca agrupar los datos del #[i dataset] #[b.fst-italic iris.csv] usando el algoritmo de agrupamiento #[i k-means], donde ya se presentaron y se visualizaron los datos del caso estudiado para identificar patrones iniciales, entonces, para continuar con la solución se debe usar Python, específicamente la librería #[b.fst-italic sklearn] clúster.                      
           .col-lg-6.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/47.png', alt='')
       .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Integración de datos")
@@ -769,7 +769,7 @@
                 img(src='@/assets/curso/temas/icon.svg', alt='')
             .list__txt.bg6.p-0.px-4
               h4.mb-1  Continuación del procedimiento  
-      p(data-aos="fade-down").mb-5 Antes de realizar el procesamiento de los datos se separan unas filas que pueden ser los datos de muestra, las cuales posteriormente se usan para verificar a qué #[i clúster] pertenecen, pues los datos se eligen al azar.
+      p(data-aos="fade-down").mb-5 Antes de realizar el procesamiento de los datos se separan unas filas que pueden ser los datos de muestra, las cuales posteriormente se usan para verificar a qué clúster pertenecen, pues los datos se eligen al azar.
       .row.justify-content-center.mb-4
         .col-lg-7.up.my-3
           .bg10.p-1.mb-4
@@ -857,7 +857,7 @@
     .row.justify-content-center.mb-4
       .col-lg-7.up.my-3
         p(data-aos="fade-down") Para hallar el valor óptimo de K necesario en #[i k-means] se aplicará el #[b #[mark.m1 método del codo]], calculando el algoritmo de agrupación para diferentes valores de #[b #[mark.m1 (K)]]. 
-        p(data-aos="fade-down") #[b #[mark.m1 El método del codo o método Elbow]] se construye calculando la inercia después de aplicar el método #[i k-means] a 1 , 2 , 3, …, N #[i clúster], siendo la inercia la suma de las distancias al cuadrado de cada objeto del #[i clúster] a su centroide.
+        p(data-aos="fade-down") #[b #[mark.m1 El método del codo o método Elbow]] se construye calculando la inercia después de aplicar el método #[i k-means] a 1 , 2 , 3, …, N clúster, siendo la inercia la suma de las distancias al cuadrado de cada objeto del clúster a su centroide.
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/54.svg', alt='')
         p(data-aos="fade-down") El punto en el que se observa un cambio brusco en los datos de las inercias se tomará como el valor de #[b #[mark.m1 K]], la línea forma algo similar a la de un brazo y su codo, el código fuente en #[i k-means] se muestra a continuación:
       .col-lg-5.up.my-3
@@ -924,7 +924,7 @@
               span 1 
               p.mb-0.ps-4.text-bold algoritmo #[b.t2 =] #[b.t3 KMeans]( #[b.t4 n_clústers]#[b.t2 =]#[b.t5 3], #[b.t4 init] #[b.t2 =]‘k-means#[b.t2 ++]’, #[b.t4 max_iter]#[b.t2 =]300, #[b.t4 n_init] #[b.t2 =]#[b.t5 10])   
 
-        p(data-aos="fade-down") #[b #[mark.m1 n clúster:]] se refiere a los #[i clúster] que se averiguó anteriormente.
+        p(data-aos="fade-down") #[b #[mark.m1 n clúster:]] se refiere a los clústeres que se averiguó anteriormente.
         p(data-aos="fade-down") #[b #[mark.m1 max_iter:]] número máximo de iteraciones en una misma ejecución.
         p(data-aos="fade-down") #[b #[mark.m1 n_init:]] número de veces que se ejecutará con diferentes centroides.
 
@@ -937,7 +937,7 @@
                   span 1 
                   p.mb-0.ps-4.text-bold algoritmo.#[b.t3 fit](X) 
 
-    p(data-aos="fade-down").mb-5 Una vez entrenado el algoritmo se debe revisar los datos de los centroides y las etiquetas obtenidas, estas etiquetas no son más que la identificación del #[i clúster] en donde queda la flor.    
+    p(data-aos="fade-down").mb-5 Una vez entrenado el algoritmo se debe revisar los datos de los centroides y las etiquetas obtenidas, estas etiquetas no son más que la identificación del clúster en donde queda la flor.    
 
     .row.justify-content-center.mb-4
       .col-lg-3.up.my-3
@@ -961,12 +961,12 @@
       .col-lg-3.up.my-3
         .bg10.p-4
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/60.svg', alt='')
-          p(data-aos="fade-down").mb-0 Indicando los centroides son las coordenadas y las etiquetas representan el #[i clúster] en el que queda cada una de las observaciones.  
+          p(data-aos="fade-down").mb-0 Indicando los centroides son las coordenadas y las etiquetas representan el clúster en el que queda cada una de las observaciones.  
 
     Separador 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.4  Segmentación de conjuntos de datos por atributos compartidos                                                            
-    p(data-aos="fade-down") Una de las principales aplicaciones del aprendizaje no supervisado es la segmentación de #[i dataset], cada #[i clúster] es mutuamente excluyente y se conoce como segmentos, la técnica de agrupar se conoce como segmentación. En las empresas, la segmentación permite identificar diferentes preferencias de los clientes, el resultado es importante para realizar el mercadeo efectivo de los productos y los servicios.
+    p(data-aos="fade-down") Una de las principales aplicaciones del aprendizaje no supervisado es la segmentación de #[i dataset], cada clúster es mutuamente excluyente y se conoce como segmentos, la técnica de agrupar se conoce como segmentación. En las empresas, la segmentación permite identificar diferentes preferencias de los clientes, el resultado es importante para realizar el mercadeo efectivo de los productos y los servicios.
 
     p(data-aos="fade-down").mb-5 Entre aplicaciones de segmentación o #[i clustering] están:   
 
@@ -997,7 +997,7 @@
             i.fas.fa-angle-right.vi
             p.mb-0 Identificación de síntomas.  
 
-    p(data-aos="fade-down").mb-5 En el caso del ejemplo propuesto es conveniente graficar los datos obtenidos en #[i clúster], para lo cual se usa el siguiente código de las longitudes y ancho de los sépalos:
+    p(data-aos="fade-down").mb-5 En el caso del ejemplo propuesto es conveniente graficar los datos obtenidos en clúster, para lo cual se usa el siguiente código de las longitudes y ancho de los sépalos:
 
     .row.justify-content-center.mb-4     
       .col-lg-7.up.my-3
@@ -1034,12 +1034,12 @@
       .col-lg-4.up.my-3
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 10.
-          span Centroides y #[i clúster]
+          span Centroides y clúster
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/64.png', alt='Gráfica de centroides y clúster obtenidos teniendo en cuenta la longitud y ancho del sépalo.') 
       .col-lg-4.up.my-3
         .bg10.p-4
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/63.png', alt='')
-          p(data-aos="fade-down").mb-0 En este caso se han graficado los #[i clúster] obtenidos, teniendo en cuenta la longitud y ancho del sépalo que son las columnas 0 y 1 del #[i dataset], se observa que el #[i clúster] 0 de color rojo podría ser los datos de la especie setosa, el #[i clúster] 1 de color azul equivale a la especie virgínica y el #[i clúster] 2 de color verde corresponde al versicolor.                                            
+          p(data-aos="fade-down").mb-0 En este caso se han graficado los clústeres obtenidos, teniendo en cuenta la longitud y ancho del sépalo que son las columnas 0 y 1 del #[i dataset], se observa que el clúster 0 de color rojo podría ser los datos de la especie setosa, el clúster 1 de color azul equivale a la especie virgínica y el clúster 2 de color verde corresponde al versicolor.                                            
 </template>
 
 <script>

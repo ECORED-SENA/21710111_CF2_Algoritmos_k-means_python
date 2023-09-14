@@ -10,7 +10,7 @@
       .col-lg-auto.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.png', alt='')           
       .col.my-3
-        p.mb-0 Todos los algoritmos de agrupación de observaciones buscan el mismo objetivo, identificar el #[i clúster] basado en patrones ocultos en los datos, los datos en el mismo #[i clúster] tienen características parecidas, los puntos con características no similares deben estar ubicados en #[i clúster] diferentes, algunos algoritmos más utilizados son los siguientes: 
+        p.mb-0 Todos los algoritmos de agrupación de observaciones buscan el mismo objetivo, identificar el clúster basado en patrones ocultos en los datos, los datos en el mismo clúster tienen características parecidas, los puntos con características no similares deben estar ubicados en clústeres diferentes, algunos algoritmos más utilizados son los siguientes: 
 
     .row.bg17.align-items-center.pt-3.mb-4
       .col-lg-12.col-12.px-lg-5.px-4.up
@@ -36,11 +36,11 @@
               .tarjeta.bgcard.ts.h-100.p-4
                 img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/71.png', alt='')           
                 h4.t1 Agrupamiento jerárquico
-                p.mb-0 Los algoritmos de agrupación jerárquica buscan fusionar pares de #[i clúster] hasta identificar un solo #[i clúster] definitivo que contiene todos los puntos de datos, los #[i clúster] se representan en un árbol llamado dendograma.
+                p.mb-0 Los algoritmos de agrupación jerárquica buscan fusionar pares de clúster hasta identificar un solo clúster definitivo que contiene todos los puntos de datos, los clústeres se representan en un árbol llamado dendograma.
           .col-md-6.col-lg-4.mb-4.mb-md-0.up(data-aos="fade-right")
             img(src='@/assets/curso/temas/66.png', alt='')
 
-    p(data-aos="fade-down").mb-5 Continuando con el caso presentado, y como bien se ha visto, en Python se ha usado la librería #[i scikit-learn] para obtener los #[i clúster] #[b #[mark.m1 #[i K-means].]] 
+    p(data-aos="fade-down").mb-5 Continuando con el caso presentado, y como bien se ha visto, en Python se ha usado la librería #[i scikit-learn] para obtener los clústeres #[b #[mark.m1 #[i K-means].]] 
 
     .row.justify-content-center.mb-4
       .col-lg-5.up.my-3
@@ -77,7 +77,7 @@
 
         h5.t1(data-aos="fade-down") En el código fuente la función tiene los siguientes parámetros de entrada:
 
-        p(data-aos="fade-down") #[b.t1 n_clúster:] número de #[i clúster] deseados y obtenidos mediante algún método como el del codo.
+        p(data-aos="fade-down") #[b.t1 n_clúster:] número de clústeres deseados y obtenidos mediante algún método como el del codo.
 
         p(data-aos="fade-down") #[b.t1 n_init:] dice cuántas veces va a correr el algoritmo independientemente, con diferentes centroides aleatorios para escoger un modelo final con el más bajo error posible.
 
@@ -101,8 +101,8 @@
       .col-lg-4.my-3(data-aos="fade-right")
         .bg14.p-4.brad.h-100
           img.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/76.png', alt='') 
-          h5 #[mark.m1 #[i Clúster] jerárquicos]  
-          p.mb-0 Se basa en la #[b densidad], para no especificar número de #[i clúster], ni estructuras esféricas en el conjunto de datos.    
+          h5 #[mark.m1 clúster jerárquicos]  
+          p.mb-0 Se basa en la #[b densidad], para no especificar número de clúster, ni estructuras esféricas en el conjunto de datos.    
     .row.justify-content-center.align-items-center(data-aos="fade-right")         
       .col-lg-auto.my-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/34.png', alt='')           

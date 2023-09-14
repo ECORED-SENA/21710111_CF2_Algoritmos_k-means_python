@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Aprendizaje no supervisado <i>K-means</i>',
     descripcionCurso:
-      'Un tipo de <i>machine learning</i> es el aprendizaje no supervisado usando el algoritmo <i>K-means</i>. Este componente formativo se orienta a conocer cómo funciona el algoritmo a través de un ejercicio planteado e identificar el <i>clúster</i> de un <i>dataset</i> seleccionado, usando Python como lenguaje para realizar algoritmos de inteligencia artificial por su potencia en cuanto a exploración estadística, sus librerías gráficas y librerías de <i>machine learning</i>.',
+      'Un tipo de <i>machine learning</i> es el aprendizaje no supervisado usando el algoritmo <i>K-means</i>. Este componente formativo se orienta a conocer cómo funciona el algoritmo a través de un ejercicio planteado e identificar el clúster de un <i>dataset</i> seleccionado, usando Python como lenguaje para realizar algoritmos de inteligencia artificial, por su potencia en cuanto a exploración estadística, sus librerías gráficas y librerías de <i>machine learning</i>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
