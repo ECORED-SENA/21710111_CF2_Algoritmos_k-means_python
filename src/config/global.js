@@ -168,19 +168,19 @@ export default {
         'el algoritmo identifica patrones y saca conclusiones de los datos que se le proporcionan.',
     },
     {
-      termino: '<i>Clúster</i>',
+      termino: 'Clúster',
       significado:
         'conjunto de objetos o registros que son similares entre sí.',
     },
     {
       termino: '<i>Clustering</i>',
       significado:
-        'proceso de dividir un conjunto de objetos o registros en subconjuntos  llamados <b><i>clúster</i></b> que tienen semejanzas.',
+        'proceso de dividir un conjunto de objetos o registros en subconjuntos  llamados <b>clúster</b> que tienen semejanzas.',
     },
     {
       termino: 'Distancia euclídea',
       significado:
-        'es la longitud de segmento entre dos puntos que definen las observaciones más cercanas para asignarlas a un <b><i>clúster</i></b>.',
+        'es la longitud de segmento entre dos puntos que definen las observaciones más cercanas para asignarlas a un <b>clúster</b>.',
     },
     {
       termino: 'Inteligencia artificial',
@@ -204,7 +204,7 @@ export default {
     {
       termino: 'Método del codo',
       significado:
-        'método consistente en ejecutar <i>K-means</i> para un <b><i>clúster</i></b>  hasta n <b><i>clúster</i></b> y graficar la inercia por cada uno, que es la sumatoria de la distancia al cuadrado  desde cada observación hasta el centroide, el valor k se toma de la gráfica.',
+        'método consistente en ejecutar <i>K-means</i> para un <b>clúster</b>  hasta n <b>clúster</b> y graficar la inercia por cada uno, que es la sumatoria de la distancia al cuadrado  desde cada observación hasta el centroide, el valor k se toma de la gráfica.',
     },
   ],
   referencias: [

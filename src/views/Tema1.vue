@@ -742,7 +742,7 @@
             p.mb-0 Este algoritmo es sensible a datos atípicos y al ruido, además exige escoger el tamaño de #[b k] y la inicialización aleatoria de centroides.                      
           .col-lg-6.my-3
             img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/47.png', alt='')   
-      .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Sklearn <i>Clúster</i>")
+      .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Sklearn Clúster")
         .row.justify-content-center
           .col-lg-6.my-3        
             h4 Sklearn clúster 
